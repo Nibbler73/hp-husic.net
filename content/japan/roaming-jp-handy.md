@@ -19,7 +19,20 @@ Wer länger in Japan bleibt und den hohen Kosten des Roaming entgehen will, kann
 
 Die Prepaid Handies sind auch in zahlreichen Ladenketten und Conbinis zu haben.
 
-Reine Prepaid-SIM Karten ohne Handy gibt es meines Wissens nach nicht in Japan. (Wer hierzu Neuigkeiten hat, bitte [mir schicken]({{< relref "kontakt.md" >}})).
+## Japanische Prepaid SIM-Karten
+
+Prepaid SIM-Karten sind meist auf reine Daten-Dienste beschränkt. Mittels [Skype](https://www.skype.com/) oder anderer Messenger lassen kann man diese SIM-Karten dennoch nutzen um zu telefonieren.
+
+Online lassen sich die SIM-Karten z.B. hier bestellen:
+
+* [U-Mobile](https://umobile.jp/d/lp/prepaid/eng.html)
+* [Japan Travel SIM (IIJmio/Brastel)](https://t.iijmio.jp/en/index.html)
+* [COMST / T-SIM 2GB](http://www.comst.jp/products/detail.php?product_id=32)
+* [Prepaid LTE SIM | So-net](http://www.so-net.ne.jp/prepaid/en/index.html)
+
+Man kann auch einfach in einen [Yodobash Camera](http://www.yodobashi.com/U-NEXT-%E3%83%A6%E3%83%BC%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88-U-mobile-%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9%E9%99%90%E5%AE%9A-%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%8930%E6%97%A5%E9%96%93-microSIM-LTE%E5%AF%BE%E5%BF%9C%E3%83%87%E3%83%BC%E3%82%BF%E9%80%9A%E4%BF%A1%E5%B0%82%E7%94%A8%E4%BD%BF%E3%81%84%E5%88%87%E3%82%8A%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%89SIM%E3%82%AB%E3%83%BC%E3%83%89/pd/100000001002998381/) store laufen und sich dort z.B. eine SIM-Karte von U-Mobile abholen.
+
+Auf diesem [wikia Blog über Japan](http://prepaid-data-sim-card.wikia.com/wiki/Japan) wird eine Liste weiterer Anbieter gepflegt.
 
 ## Japanisches Vertrags-Handy
 
@@ -31,6 +44,6 @@ Wer länger in Japan bleibt kann sich auch einen Vertrag zulegen. Die aktuellen 
 
 Eine Mindestlaufzeit gibt es üblicherweise nicht, einige Händler bieten zusätzliche Handy-Subventionen gegen 1 oder 2 Jahre Laufzeit an. Gegen eine zusätzliche Gebühr (10.000¥, ca. 70€) können aber auch diese vorzeitig gekündigt werden. Die Kündigung (mit oder ohne Mindestlaufzeit) dauert ca. 1½ Stunden und kann beispielsweise am Flughafen vor dem Abflug erledigt werden.
 
-Das Konzept gefällt mir. Kunden werden nicht mit langen Laufzeiten geknebelt, sondern über Langzeitrabatte, Bonuspunkte und guten Service gebunden. Beispielsweise mit bis zu 50% Preisnachlass auf die monatliche Rechnung für langjährige Kunden, Familienrabatte, etc. In Deutschland würde mir sowas auch gefallen. Immerhin: bisher zeigt [O₂](https://www.o2.de/) mit seinem neuen Tarif [O₂o](http://www.o2o.de/) wie es gehen kann.
+Das Konzept gefällt mir. Kunden werden nicht mit langen Laufzeiten geknebelt, sondern über Langzeitrabatte, Bonuspunkte und guten Service gebunden. Beispielsweise mit bis zu 50% Preisnachlass auf die monatliche Rechnung für langjährige Kunden, Familienrabatte, etc.
 
 
