@@ -16,7 +16,7 @@ Postfach 45 04 55<br />
 DE-50879 Köln<br />
 Germany
 
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:200px;width:890px;'><div id='gmap_canvas' style='height:200px;width:890px;'></div><div><small><a href="http://embedgooglemaps.com">									google maps karte erstellen							</a></small></div><div><small><a href="https://datenschutzerklärungmuster.de/">datenschutzerklärung muster</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(50.937531,6.960278600000038),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.937531,6.960278600000038)});infowindow = new google.maps.InfoWindow({content:'<strong>Kölle am Rhein</strong><br>Köln, Deutschland<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573508.2251522415!2d4.726107234526847!3d50.957161225671705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf259169ab2fe5%3A0x42760fc4a2a77f0!2zS8O2bG4!5e0!3m2!1sde!2sde!4v1469050323255" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ## Telefon
 
