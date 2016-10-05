@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<age-declaration>
+  <ageblock-basic>
+    <age-issuer>self-d</age-issuer>
+    <last-change>2016-10-06</last-change>
+    <country>de</country>
+    <label-version>1.0</label-version>
+    <revisit-after>14days</revisit-after>
+	<custom info="Anmerkung">Zutritt nur für 99-jährige in Begleitung ihrer Eltern</custom>
+  </ageblock-basic>
+  <ageblock-labeltype>
+    <httpheader>false</httpheader>
+    <htmlmeta>false</htmlmeta>
+    <xmlfile>true</xmlfile>
+    <label-z>false</label-z>
+    <default-age>6</default-age>
+    <alternate>https://husic.net/age/</alternate>
+  </ageblock-labeltype>
+  <ageblock-labeltype-definition>
+    <labeltype-xmlfile>
+      <label class="default">
+        <min-age>0</min-age>
+        <default-age>6</default-age>
+      </label>
+	  <label class="InfoPage">
+        <age>0</age>
+        <min-age>0</min-age>
+        <default-age>0</default-age>
+        <scope>*.husic.net/age/</scope>
+      </label>
+      <label class="DefaultContent">
+        <age>6</age>
+        <min-age>0</min-age>
+        <default-age>6</default-age>
+        <scope>*.husic.net/</scope>
+      </label>
+    </labeltype-xmlfile>
+  </ageblock-labeltype-definition>
+</age-declaration>
