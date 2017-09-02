@@ -3,6 +3,7 @@ date: 2016-07-19T12:30:00+02:00
 title: Deutsches Handy
 aliases:
     - /deutsches-handy.html
+    - /DeutschesHandy.html
 menu:
   main:
     parent: Japan

@@ -3,6 +3,7 @@ date: 2016-07-19T12:40:00+02:00
 title: Roaming in Japan
 aliases:
     - /japan-roaming.html
+    - /JapanRoaming.html
 menu:
   main:
     parent: Japan
