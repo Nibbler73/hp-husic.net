@@ -7,7 +7,7 @@ aliases:
 
 ## E-Mail
 
-{{< email "kontakt@husic.net" >}}
+{{< contact >}}
 
 ## Anschrift in Deutschland
 

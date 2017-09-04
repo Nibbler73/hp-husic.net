@@ -1,0 +1,23 @@
+
+<form action="//contact-validation.api.husic.net/v1/" method="post">
+<ul class="form-style-1">
+    <li><label>Name <span class="required">*</span></label><input type="text" name="vorname" class="field-divided" placeholder="Vorname" required />&nbsp;<input type="text" name="nachname" class="field-divided" placeholder="Nachname" required /></li>
+    <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="email" class="field-long" placeholder="E-Mail Adresse" required />
+    </li>
+    <li>
+        <label>Die Nachricht <span class="required">*</span></label>
+        <textarea name="nachricht" id="nachricht" class="field-long field-textarea" placeholder="Die Nachricht" required ></textarea>
+    </li>
+    <li>
+        <label>Und das nervige Spiel gegen Roboter... <span class="required">*</span></label>
+        <div class="g-recaptcha" data-sitekey="6LftMS8UAAAAAIxhfCFFS20s5CXpY9cPAoWn-G6i"></div>
+    </li>
+    <li>
+        <input type="submit" value="Abschicken" />
+    </li>
+</ul>
+</form>
+<!--js-->
+<script src='https://www.google.com/recaptcha/api.js'></script>

@@ -24,7 +24,7 @@ googleAnalytics = ""
 	permalink = "#"
 
 	# Custom assets
-	custom_css = ["css/external-link.css", "pro-adblock/assets/css/padb-style-1.css"]
+	custom_css = ["css/external-link.css", "css/form.css", "pro-adblock/assets/css/padb-style-1.css"]
 	custom_js  = ["js/jquery-3.1.0.slim.min.js", "js/jquery.cookie.js", "js/cookieConsent.js", "js/cookieconsent.min.js", "js/proAdBlock.js", "js/gads.js"]
 
 	# Syntax highlighting theme
