@@ -2,7 +2,7 @@ language: go
 go:
 - 1.7
 install:
-- wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.21/hugo_0.21_Linux-64bit.deb
+- wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.deb
 - sudo dpkg -i /tmp/hugo.deb
 - sudo apt-get install -y lftp
 script: hugo
