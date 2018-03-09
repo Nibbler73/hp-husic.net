@@ -13,7 +13,7 @@ env:
   - secure: JZ+tDuxV3QjXkAUVUWll1GEguyQy2WMMSYVDMvW1R+Zce20Y0f8bOAmkz1YElS8X5xH8LUYti04P7k0k9RhLm+gBWV/dTUVRq0GRqpDNxtnzxrpgVF9DOhK4eFWA3i27hPEXYg5uwnRa1Cb2j+Pqxa7tE4Na6jcKo6heG0spxUYuO9+IIG5/FpzAdHc0NiFvaAEdDDI++ipG8sE2a6ak+FeD+KmcRXgsz8hHOn3vVBq2ggSN1aVhMqWTIE4s9roIBqVjk+8+fbI8XMvp5P7ACWHySndl+ZCnGgHKKfKHQ+dm1l9kPAVlHlu9WzO3uLl11uS2AV2yvk3I8/IHg9c7zfRfiahcbQK5p3uPWEHqN9mJfQN5SOZ7A6G9MKYqPhM1MgxCy38v9MfqcvOvgOwZjBpFxirgqvgQZYyjt+zVR5sd5gkGJZX2IsSQMu46C0PWHmxdcfSalVVkT9JDCxF8nRAaYUOTPiSkiBrm7JPCXn/11eeVKZptvspXNsa5saL6aJ/xNbjDGrYgAlw4OuCxfSlOwP0MVu8Sni2Ta/EKQ9M7uU03qMgkUV2yGOJSTTCh29fKiqnI1RZvkj1+pxau8xgWb6M5RzsfO/W4hQ0JYoOEoT4w1PHtgfyGCJY5NdeFfxjE9lGl+1AUuyBtMQGB1ybyJp2WTrenjftNQY7MPf0=
 #after_success: lftp -c "set ftps:initial-prot ''; set ftp:ssl-force true; set ftp:ssl-protect-data
 #  true; set log/debug:enabled true; set ftp:sync-mode true; open ftp://$FTP_USER:$FTP_PASSWORD@$FTP_SERVER:21; mirror -Rv public .; quit;"
-after_success: cd public && ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASSWORD" "$FTP_SERVER" . .
+after_success: cd public && ncftpput -R -v -d stdout -u "$FTP_USER" -p "$FTP_PASSWORD" "$FTP_SERVER" . .
 addons:
   apt:
     packages:
