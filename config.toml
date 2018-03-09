@@ -64,6 +64,11 @@ googleAnalytics = ""
 	url    = "kontakt/"
 	weight = 300
 
+[[menu.main]]
+	name   = "Datenschutzerklärung"
+	url    = "datenschutzerklaerung/"
+	weight = 300
+
 
 [blackfriday]
 	smartypants	= true
