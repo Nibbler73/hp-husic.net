@@ -31,9 +31,10 @@ Einwilligung weiter.
 
 Diese Seite nutzt aus Gründen der Sicherheit und zum Schutz der Übertragung vertraulicher Inhalte, wie
 zum Beispiel der Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-Verschlüsselung. Eine
-verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von "http://" auf
-"https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
-Wenn die SSL Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von
+verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von `http://` auf
+`https://` wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
+
+Wenn die SSL Verschlüsselung aktiviert ist können die Daten, die Sie an uns übermitteln, nicht von
 Dritten mitgelesen werden.
 
 ## Verwendung von Google Maps
