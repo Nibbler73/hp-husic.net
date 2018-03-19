@@ -43,7 +43,7 @@ deploy:
     - script:
         name: sync folders
         code: |
-            cd public && ncftpput -R -v -u \"$FTP_USER\" -p \"$FTP_PASSWORD\" \"$FTP_SERVER\" . .
+            cd public && ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASSWORD" "$FTP_SERVER" . .
 #    - duleorlovic/ftp-deploy:
 #      source: $WERCKER_SOURCE_DIR/public
 #      destination: $FTP_SERVER
