@@ -12,6 +12,17 @@ box: debian
     # - mongo
     # http://devcenter.wercker.com/docs/services/mongodb.html
 
+# We have to fetch Git submodules manually.
+- script:
+        name: install git
+        code: |
+            apt-get update
+            apt-get install git -y
+    - script:
+        name: initialize git submodules
+        code: |
+            git submodule update --init --recursive
+
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
 # http://devcenter.wercker.com/docs/pipelines/index.html
@@ -22,7 +33,7 @@ build:
   steps:
     - arjen/hugo-build@1.29.1:
       version: "0.18.1"
-      theme: "hugo-material-docs"
+      theme: hugo-material-docs
 deploy:
   steps:
     - duleorlovic/ftp-deploy:
