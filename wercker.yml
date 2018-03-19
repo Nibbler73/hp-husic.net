@@ -35,8 +35,17 @@ build:
       theme: hugo-material-docs
 deploy:
   steps:
-    - duleorlovic/ftp-deploy:
-      source: $WERCKER_SOURCE_DIR/public
-      destination: $FTP_SERVER
-      username: $FTP_USER
-      password: $FTP_PASSWORD
+    - script:
+        name: install ncftp
+        code: |
+            apt-get update
+            apt-get install ncftp -y
+    - script:
+        name: sync folders
+        code: |
+            cd public && ncftpput -R -v -u \"$FTP_USER\" -p \"$FTP_PASSWORD\" \"$FTP_SERVER\" . .
+#    - duleorlovic/ftp-deploy:
+#      source: $WERCKER_SOURCE_DIR/public
+#      destination: $FTP_SERVER
+#      username: $FTP_USER
+#      password: $FTP_PASSWORD
