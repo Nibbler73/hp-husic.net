@@ -42,8 +42,6 @@ Wer länger in Japan bleibt kann sich auch einen Vertrag zulegen. Die aktuellen 
 * [Softbank](http://www.softbank.jp/en/mobile/) (3G)
 * [AU by KDDI](http://www.au.kddi.com/english)
 
-Eine Mindestlaufzeit gibt es üblicherweise nicht, einige Händler bieten zusätzliche Handy-Subventionen gegen 1 oder 2 Jahre Laufzeit an. Gegen eine zusätzliche Gebühr (10.000¥, ca. 70€) können aber auch diese vorzeitig gekündigt werden. Die Kündigung (mit oder ohne Mindestlaufzeit) dauert ca. 1½ Stunden und kann beispielsweise am Flughafen vor dem Abflug erledigt werden.
+Eine Mindestlaufzeit gibt es üblicherweise nicht, einige Händler bieten zusätzliche Handy-Subventionen gegen 1 oder 2 Jahre Laufzeit an. Gegen eine zusätzliche Gebühr (10.000 ¥, ca. 70 €) können aber auch diese vorzeitig gekündigt werden. Die Kündigung (mit oder ohne Mindestlaufzeit) dauert ca. 1½ Stunden und kann beispielsweise am Flughafen vor dem Abflug erledigt werden.
 
 Das Konzept gefällt mir. Kunden werden nicht mit langen Laufzeiten geknebelt, sondern über Langzeitrabatte, Bonuspunkte und guten Service gebunden. Beispielsweise mit bis zu 50% Preisnachlass auf die monatliche Rechnung für langjährige Kunden, Familienrabatte, etc.
-
-

@@ -20,6 +20,10 @@ Wer in Japan viel telefonieren möchte, sollte sich überlegen ob er sich nicht 
 
 Hier eine Übersicht der deutschen Netzbetreiber und ihrer Roaming-Spezialitäten.
 
+{{< warning title="Vorsicht" >}}
+Für alle Anbieter gilt: Roaming außerhalb der EU kann dramatisch ins Geld gehen. Mir ist kein Anbieter bekannt, der seinen Kunden überschaubare Kosten beim Roaming außerhalb der EU anbietet.
+{{< /warning >}}
+
 ## Telekom
 
 * Roaming mit [NTT DoCoMo und SoftBank](https://www.t-mobile.de/roaming/0,25096,25649-_,00.html), Sprachdienste und SMS.
@@ -33,7 +37,7 @@ Informationen zum [Roaming in Japan](https://www.nttdocomo.co.jp/english/support
 
 * Roaming mit [SoftBank](http://www.vodafone.de/privat/service/roaming-laenderuebersicht.html), Sprachdienste und SMS
 (UMTS-Handy erforderlich)
-* Das „[Reiseversprechen](http://www.vodafone.de/privat/service/roaming-reiseversprechen-mit-vertrag.html)“ gilt auch in Japan, damit kann man (vereinfacht ausgedrückt) zu den gleichen Konditionen telefonieren wie in Deutschland, zzgl. 0,75 € pro Gespräch
+* Das „[Reiseversprechen](http://www.vodafone.de/privat/service/roaming-reiseversprechen-mit-vertrag.html)“ gilt auch in Japan, damit kann man (vereinfacht ausgedrückt) zu den gleichen Konditionen telefonieren wie in Deutschland, zzgl. 0,75 € pro Gespräch
 Diese Option ist nur für AltTarife verfügbar und kann nicht mehr gebucht werden.
 * Das „[ReisePaket Plus](https://www.vodafone.de/privat/service/reisepaketplus.html)“ bietet keine Vorteile in Japan.
 * Für den Preis eines „[ReisePaket World](https://www.vodafone.de/privat/service/reisepaket-world-woche.html) kann man sich auch eine [Prepaid-Karte in Japan]({{< relref "japan/roaming-jp-handy.md" >}}) zulegen.
@@ -46,7 +50,7 @@ Diese Option ist nur für AltTarife verfügbar und kann nicht mehr gebucht werde
 * Laut „Hinweisen aus der Bevölkerung“ gilt das gleiche für E-Plus und BASE  
 
 {{< warning title="Vorsicht" >}}
-Für alle Anbieter gilt: Roaming außerhalb der EU kann dramatisch ins Geld gehen. Mir ist kein Anbieter bekannt, der seinen Kunden überschaubare Kosten beim Roaming anbietet.
+Für alle Anbieter gilt: Roaming außerhalb der EU kann dramatisch ins Geld gehen. Mir ist kein Anbieter bekannt, der seinen Kunden überschaubare Kosten beim Roaming außerhalb der EU anbietet.
 {{< /warning >}}
 
 
