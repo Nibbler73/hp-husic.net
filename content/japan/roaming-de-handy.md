@@ -48,9 +48,3 @@ Diese Option ist nur für AltTarife verfügbar und kann nicht mehr gebucht werde
 (UMTS-Handy erforderlich)
 * Keine Roaming-Option für Japan
 * Laut „Hinweisen aus der Bevölkerung“ gilt das gleiche für E-Plus und BASE  
-
-{{< warning title="Vorsicht" >}}
-Für alle Anbieter gilt: Roaming außerhalb der EU kann dramatisch ins Geld gehen. Mir ist kein Anbieter bekannt, der seinen Kunden überschaubare Kosten beim Roaming außerhalb der EU anbietet.
-{{< /warning >}}
-
-
