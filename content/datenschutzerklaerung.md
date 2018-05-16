@@ -1,5 +1,5 @@
 ---
-date: 2016-07-19T00:00:00+02:00
+date: 2016-07-19T22:00:00+02:00
 title: Datenschutzerklärung
 aliases:
     - /datenschutzerklaerung.html
