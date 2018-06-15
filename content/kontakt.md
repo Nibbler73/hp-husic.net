@@ -10,3 +10,5 @@ aliases:
 {{< contact >}}
 
 Mit dem Absenden Ihrer Anfrage erklären Sie sich mit der Verarbeitung Ihrer angegebenen Daten zum Zweck der Bearbeitung Ihrer Anfrage einverstanden ([Datenschutzerklärung und Widerrufshinweise]({{< relref "datenschutzerklaerung.md" >}}))
+
+{{< osmLeaflet >}}

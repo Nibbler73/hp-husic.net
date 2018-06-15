@@ -116,6 +116,12 @@ Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer berechtigten 
 
 Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die IP-Adresse der Nutzer wahrnehmen, da sie ohne die IP-Adresse die Inhalte nicht an deren Browser senden könnten. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Drittanbieter können ferner so genannte Pixel-Tags (unsichtbare Grafiken, auch als "Web Beacons" bezeichnet) für statistische oder Marketingzwecke verwenden. Durch die "Pixel-Tags" können Informationen, wie der Besucherverkehr auf den Seiten dieser Website ausgewertet werden. Die pseudonymen Informationen können ferner in Cookies auf dem Gerät der Nutzer gespeichert werden und unter anderem technische Informationen zum Browser und Betriebssystem, verweisende Webseiten, Besuchszeit sowie weitere Angaben zur Nutzung unseres Onlineangebotes enthalten, als auch mit solchen Informationen aus anderen Quellen verbunden werden.
 
+## OpenStreetMap
+
+Zur Darstellung von Geo-Daten verwenden wir das Open-Source-Mapping-Werkzeug „OpenStreetMap“ (OSM). Zur Nutzung der Funktionen von „OpenStreetMap“ ist es notwendig, Ihre IP Adresse zu speichern. Die­se Diens­te wer­den von der Open­S­treet­Map Foun­da­ti­on (OS­MF), 132 Ma­ney Hill Road, Sut­ton Cold­field, West Mid­lands, B72 1JU, Uni­ted King­dom, für die OS­M-­Ge­mein­schaft be­trie­ben.
+
+Mehr Details unter http://wiki.openstreetmap.org/wiki/Legal_FAQ und auf der [Da­ten­schutz­sei­te von Open­S­treet­Map](http://wiki.openstreetmap.org/wiki/Privacy_Policy)
+
 ## Google Maps
 
 Wir binden die Landkarten des Dienstes “Google Maps” des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Datenschutzerklärung: https://www.google.com/policies/privacy/, Opt-Out: https://adssettings.google.com/authenticated.
