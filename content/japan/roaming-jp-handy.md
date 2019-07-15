@@ -25,10 +25,10 @@ Prepaid SIM-Karten sind meist auf reine Daten-Dienste beschränkt. Mittels [Skyp
 
 Online lassen sich die SIM-Karten z.B. hier bestellen:
 
-* [U-Mobile](https://umobile.jp/d/lp/prepaid/eng.html)
+* [U-Mobile](https://umobile.jp/lp/prepaid_eng/)
 * [Japan Travel SIM (IIJmio/Brastel)](https://t.iijmio.jp/en/index.html)
-* [COMST / T-SIM 2GB](http://www.comst.jp/products/detail.php?product_id=32)
-* [Prepaid LTE SIM | So-net](http://www.so-net.ne.jp/prepaid/en/index.html)
+* [Japan Wireless](https://www.japan-wireless.com/en/rates#sim-product-part)
+* [Prepaid LTE SIM | So-net](https://www.so-net.ne.jp/prepaid/en/)
 
 Man kann auch einfach in einen [Yodobash Camera](http://www.yodobashi.com/U-NEXT-%E3%83%A6%E3%83%BC%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88-U-mobile-%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9%E9%99%90%E5%AE%9A-%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%8930%E6%97%A5%E9%96%93-microSIM-LTE%E5%AF%BE%E5%BF%9C%E3%83%87%E3%83%BC%E3%82%BF%E9%80%9A%E4%BF%A1%E5%B0%82%E7%94%A8%E4%BD%BF%E3%81%84%E5%88%87%E3%82%8A%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A4%E3%83%89SIM%E3%82%AB%E3%83%BC%E3%83%89/pd/100000001002998381/) store laufen und sich dort z.B. eine SIM-Karte von U-Mobile abholen.
 
