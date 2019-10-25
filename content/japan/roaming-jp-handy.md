@@ -26,7 +26,7 @@ Prepaid SIM-Karten sind meist auf reine Daten-Dienste beschränkt. Mittels [Skyp
 Online lassen sich die SIM-Karten z.B. hier bestellen:
 
 * [U-Mobile](https://umobile.jp/lp/prepaid_eng/)
-* [Japan Travel SIM (IIJmio/Brastel)](https://t.iijmio.jp/en/index.html)
+* [Japan Travel SIM (IIJmio/Brastel)](https://tr.iijmio.jp/)
 * [Japan Wireless](https://www.japan-wireless.com/en/rates#sim-product-part) (Gutschein `PROMOJW` bietet ¥500 Rabatt)
 * [Prepaid LTE SIM | So-net](https://www.so-net.ne.jp/prepaid/en/)
 
