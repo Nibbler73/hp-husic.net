@@ -19,7 +19,7 @@ Folgende DNS-Server verwende ich.
 ||84.200.70.40|2001:1608:10:25::9249:d69b||
 |[OpenDNS](https://www.opendns.com/setupguide/)|208.67.222.222|2620:119:35::35||
 ||208.67.220.220|2620:119:53::53||
-|[SecureDNS](https://securedns.eu/)|146.185.167.43:5353|[2a03:b0c0:0:1010::e9a:3001]:5353|https://doh.securedns.eu/dns-query|
+|<s>[SecureDNS](https://securedns.eu/)</s> Betrieb eingestellt|<s>146.185.167.43:5353</s>|<s>[2a03:b0c0:0:1010::e9a:3001]:5353</s>|<s>https://doh.securedns.eu/dns-query</s>|
 |||||
 |[ComodoDNS](https://www.comodo.com/secure-dns/)|8.26.56.26|&mdash;||
 ||8.20.247.20|&mdash;||
