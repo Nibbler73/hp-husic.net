@@ -24,11 +24,15 @@ Folgende DNS-Server verwende ich.
 |[ComodoDNS](https://www.comodo.com/secure-dns/)|8.26.56.26|&mdash;|||
 ||8.20.247.20|&mdash;|||
 
-Mit einem iOS Gerät kann man sich die Profile hier installieren:
+iPhones und iPads ab iOS 14 unterstützen eine DNS-over-HTTPS sowie DNS-over-TLS Konfiguration. Statt der unverschlüsselten DNS-Server des aktuellen Internetzugangs werden dann immer die verschlüsselten verwendet. Diese muss über Profile eingespielt werden.
+
+Mit einem iOS Gerät kann man sich die Profile z.B. hier installieren:
 
 DNS over HTTPS: 
 
+* [Quad9](/dns-config/doh-quad9.mobileconfig)
 * [Cloudflare](/dns-config/doh-quad9.mobileconfig)
+* [Digitale Gesellschaft](/dns-config/doh-digitale-gesellschaft.mobileconfig)
 
 DNS over TLS
 
@@ -37,3 +41,5 @@ DNS over TLS
 * [Digitale Gesellschaft](/dns-config/dot-digitale-gesellschaft.mobileconfig)
 * [Google](/dns-config/dot-google.mobileconfig)
 * [Digitalcourage](/dns-config/dot-digitalcourage.mobileconfig)
+
+Hinweis: Die Profile sind signiert und werden verschlüsselt übertragen.
