@@ -24,7 +24,7 @@ DNS over TLS
 DNS over HTTPS: 
 
 * [Quad9](/dns-config/doh-quad9.mobileconfig)
-* [Cloudflare](/dns-config/doh-quad9.mobileconfig)
+* [Cloudflare](/dns-config/doh-cloudflare.mobileconfig)
 * [Digitale Gesellschaft](/dns-config/doh-digitale-gesellschaft.mobileconfig)
 
 Die Profile sind alle signiert und werden verschlüsselt übertragen.
