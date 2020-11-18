@@ -7,7 +7,7 @@ title: DNS Einstellungen
 
 [DNS](https://www.heise.de/tipps-tricks/Was-ist-ein-DNS-Server-4672536.html) ist eine grundlegende Technik die das Internet wie wir es kennen und benutzen erst möglich macht. Zuverlässig werkelt es im Hintergrund und sorgt mit seiner problemlosigkeit dafür, dass man sich nicht darum kümmern muss. Das DNS ist so wie vor 20 Jahren erdacht auch heute weitestgehend unverändert im Einsatz und kommt mit den meisten Forderungen der heutigen Welt gut klar.
 
-Mich stört allerdings eine Sache: Vor 20 Jahren war Verschlüsselung kein relevantes Thema und so ist es bei DNS leider auch geblieben. Die Verbesserungen DNS-over-HTTPS (DoH) sowie DNS-over-TLS (DoT) setzen sich nur sehr langsam durch.
+Mich stört allerdings eine Sache: Vor 20 Jahren war Verschlüsselung kein relevantes Thema und so ist es bei DNS leider auch geblieben. Aber auch [DNS-Sicherheitskonzepte](https://www.ionos.de/digitalguide/server/sicherheit/dns-over-tls/) entwickeln sich ja weiter. Die Verbesserungen [DNS-over-TLS (DoT)](https://heise.de/-4864255) sowie DNS-over-HTTPS (DoH) setzen sich nur sehr langsam durch.
 
 Immerhin: iPhone und iPad ab iOS 14 unterstützen eine DoH sowie DoT Konfiguration. Statt der unverschlüsselten DNS-Server des gerade verwendeten Internetzugangs (WLAN oder Mobilfunk) werden dann immer die verschlüsselten verwendet. Diese Funktion muss über Profile eingestellt werden.
 
@@ -29,6 +29,10 @@ DNS over HTTPS:
 
 Die Profile sind alle signiert und werden verschlüsselt übertragen.
 
+Fehlt eurer Meinung nach ein wichtiges Profil oder ein DNS-Server? Dann gebt mir gerne einen [Hinweis]({{< relref "kontakt.md" >}}).
+
+Mit einer FritzBox kann man übrigens [DoT im Router aktivieren](https://www.heise.de/select/ct/2020/22/2024813071272720771).
+
 ### Folgende DNS-Server verwende ich.
 
 |Anbieter|IPv4|IPv6|DNS over HTTPS|DNS over TLS|
@@ -49,3 +53,5 @@ Die Profile sind alle signiert und werden verschlüsselt übertragen.
 ||||||
 |[ComodoDNS](https://www.comodo.com/secure-dns/)|8.26.56.26|&mdash;|||
 ||8.20.247.20|&mdash;|||
+
+Fehlt eurer Meinung nach ein wichtiges Profil oder ein DNS-Server? Dann gebt mir gerne [Bescheid]({{< relref "kontakt.md" >}}).
