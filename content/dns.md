@@ -3,13 +3,39 @@ date: 2016-12-15T09:16:49+02:00
 title: DNS Einstellungen
 ---
 
-Folgende DNS-Server verwende ich.
+### DNS?
+
+[DNS](https://www.heise.de/tipps-tricks/Was-ist-ein-DNS-Server-4672536.html) ist eine grundlegende Technik die das Internet wie wir es kennen und benutzen erst möglich macht. Zuverlässig werkelt es im Hintergrund und sorgt mit seiner problemlosigkeit dafür, dass man sich nicht darum kümmern muss. Das DNS ist so wie vor 20 Jahren erdacht auch heute weitestgehend unverändert im Einsatz und kommt mit den meisten Forderungen der heutigen Welt gut klar.
+
+Mich stört allerdings eine Sache: Vor 20 Jahren war Verschlüsselung kein relevantes Thema und so ist es bei DNS leider auch geblieben. Die Verbesserungen DNS-over-HTTPS (DoH) sowie DNS-over-TLS (DoT) setzen sich nur sehr langsam durch.
+
+Immerhin: iPhone und iPad ab iOS 14 unterstützen eine DoH sowie DoT Konfiguration. Statt der unverschlüsselten DNS-Server des gerade verwendeten Internetzugangs (WLAN oder Mobilfunk) werden dann immer die verschlüsselten verwendet. Diese Funktion muss über Profile eingestellt werden.
+
+Mit einem iOS Gerät kann man sich z.B. eines dieser Profile installieren:
+
+DNS over TLS
+
+* [Quad9](/dns-config/dot-quad9.mobileconfig)
+* [Cloudflare](/dns-config/dot-cloudflare.mobileconfig)
+* [Digitale Gesellschaft](/dns-config/dot-digitale-gesellschaft.mobileconfig)
+* [Google](/dns-config/dot-google.mobileconfig)
+* [Digitalcourage](/dns-config/dot-digitalcourage.mobileconfig)
+
+DNS over HTTPS: 
+
+* [Quad9](/dns-config/doh-quad9.mobileconfig)
+* [Cloudflare](/dns-config/doh-quad9.mobileconfig)
+* [Digitale Gesellschaft](/dns-config/doh-digitale-gesellschaft.mobileconfig)
+
+Die Profile sind alle signiert und werden verschlüsselt übertragen.
+
+### Folgende DNS-Server verwende ich.
 
 |Anbieter|IPv4|IPv6|DNS over HTTPS|DNS over TLS|
 |---|---|---|---|---|
 |[Quad9](https://quad9.net/)|9.9.9.9|2620:fe::fe|https://dns.quad9.net/dns-query|dns.quad9.net|
 ||149.112.112.112|2620:fe::9|||
-|[Cloudflare DNS](https://1.1.1.1/de/)|1.1.1.1|2606:4700:4700::1111|https://cloudflare-dns.com/dns-query|one.one.one.one|
+|[Cloudflare DNS](https://1.1.1.1/)|1.1.1.1|2606:4700:4700::1111|https://cloudflare-dns.com/dns-query|one.one.one.one|
 ||1.0.0.1|2606:4700:4700::1001||1dot1dot1dot1.cloudflare-dns.com|
 |[Digitale Gesellschaft](https://www.digitale-gesellschaft.ch/)|185.95.218.42|2a05:fc84::42|https://dns.digitale-gesellschaft.ch/dns-query|dns.digitale-gesellschaft.ch|
 ||185.95.218.43|2a05:fc84::43|||
@@ -23,23 +49,3 @@ Folgende DNS-Server verwende ich.
 ||||||
 |[ComodoDNS](https://www.comodo.com/secure-dns/)|8.26.56.26|&mdash;|||
 ||8.20.247.20|&mdash;|||
-
-iPhones und iPads ab iOS 14 unterstützen eine DNS-over-HTTPS sowie DNS-over-TLS Konfiguration. Statt der unverschlüsselten DNS-Server des aktuellen Internetzugangs werden dann immer die verschlüsselten verwendet. Diese muss über Profile eingespielt werden.
-
-Mit einem iOS Gerät kann man sich die Profile z.B. hier installieren:
-
-DNS over HTTPS: 
-
-* [Quad9](/dns-config/doh-quad9.mobileconfig)
-* [Cloudflare](/dns-config/doh-quad9.mobileconfig)
-* [Digitale Gesellschaft](/dns-config/doh-digitale-gesellschaft.mobileconfig)
-
-DNS over TLS
-
-* [Quad9](/dns-config/dot-quad9.mobileconfig)
-* [Cloudflare](/dns-config/dot-cloudflare.mobileconfig)
-* [Digitale Gesellschaft](/dns-config/dot-digitale-gesellschaft.mobileconfig)
-* [Google](/dns-config/dot-google.mobileconfig)
-* [Digitalcourage](/dns-config/dot-digitalcourage.mobileconfig)
-
-Hinweis: Die Profile sind signiert und werden verschlüsselt übertragen.
