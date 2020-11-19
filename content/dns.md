@@ -29,7 +29,7 @@ DNS over HTTPS:
 
 Die Profile sind alle signiert und werden verschlüsselt übertragen.
 
-Fehlt eurer Meinung nach ein wichtiges Profil oder ein DNS-Server? Dann gebt mir gerne einen [Hinweis]({{< relref "kontakt.md" >}}).
+Fehlt eurer Meinung nach ein Profil oder ein DNS-Server? Dann gebt mir gerne einen [Hinweis]({{< relref "kontakt.md" >}}).
 
 Mit einer FritzBox kann man übrigens [DoT im Router aktivieren](https://www.heise.de/select/ct/2020/22/2024813071272720771).
 
@@ -54,4 +54,4 @@ Mit einer FritzBox kann man übrigens [DoT im Router aktivieren](https://www.hei
 |[ComodoDNS](https://www.comodo.com/secure-dns/)|8.26.56.26|&mdash;|||
 ||8.20.247.20|&mdash;|||
 
-Fehlt eurer Meinung nach ein wichtiges Profil oder ein DNS-Server? Dann gebt mir gerne [Bescheid]({{< relref "kontakt.md" >}}).
+Fehlt eurer Meinung nach ein Profil oder ein DNS-Server? Dann freue ich mich über einen [Hinweis]({{< relref "kontakt.md" >}}).
