@@ -15,17 +15,19 @@ Mit einem iOS Gerät kann man sich z.B. eines dieser Profile installieren:
 
 DNS over TLS
 
+* [Freifunk FFMUC](/dns-config/dot-ffmuc.mobileconfig)
 * [Quad9](/dns-config/dot-quad9.mobileconfig)
-* [Cloudflare](/dns-config/dot-cloudflare.mobileconfig)
 * [Digitale Gesellschaft](/dns-config/dot-digitale-gesellschaft.mobileconfig)
-* [Google](/dns-config/dot-google.mobileconfig)
 * [Digitalcourage](/dns-config/dot-digitalcourage.mobileconfig)
+* [Google](/dns-config/dot-google.mobileconfig)
+* [Cloudflare](/dns-config/dot-cloudflare.mobileconfig)
 
 DNS over HTTPS: 
 
+* [Freifunk FFMUC](/dns-config/doh-ffmuc.mobileconfig)
 * [Quad9](/dns-config/doh-quad9.mobileconfig)
-* [Cloudflare](/dns-config/doh-cloudflare.mobileconfig)
 * [Digitale Gesellschaft](/dns-config/doh-digitale-gesellschaft.mobileconfig)
+* [Cloudflare](/dns-config/doh-cloudflare.mobileconfig)
 
 Die Profile sind alle signiert und werden verschlüsselt übertragen.
 
