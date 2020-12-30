@@ -41,7 +41,7 @@ Mit einer FritzBox kann man übrigens [DoT im Router aktivieren](https://www.hei
 |---|---|---|---|---|
 |[Quad9](https://quad9.net/)|9.9.9.9|2620:fe::fe|https://dns.quad9.net/dns-query|dns.quad9.net|
 ||149.112.112.112|2620:fe::9|||
-|[Digitalcourage](https://digitalcourage.de/)|46.182.19.48|2a02:2970:1002::18||dns2.digitalcourage.de|
+|[Digitalcourage](https://digitalcourage.de/)|46.182.19.48|2a02:2970:1002::18||dns3.digitalcourage.de|
 |[Freifunk FFMUC](https://ffmuc.net/)|5.1.66.255|2001:678:e68:f000::|https://doh.ffmuc.net/dns-query|dot.ffmuc.net|
 |[Digitale Gesellschaft](https://www.digitale-gesellschaft.ch/)|185.95.218.42|2a05:fc84::42|https://dns.digitale-gesellschaft.ch/dns-query|dns.digitale-gesellschaft.ch|
 ||185.95.218.43|2a05:fc84::43|||
