@@ -31,7 +31,7 @@ jobs:
       - name: ⚙️ Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.55.6'
+          hugo-version: '0.18.1'
           # hugo-version: '0.91.2'
           # extended: true
 
@@ -44,3 +44,5 @@ jobs:
           server: ${{ secrets.FTP_DEPLOY_SERVER }}
           username: ${{ secrets.FTP_DEPLOY_USER }}
           password: ${{ secrets.FTP_DEPLOY_PASSWORD }}
+          protocol: ftps
+          local-dir: ./public/
