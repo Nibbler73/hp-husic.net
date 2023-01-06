@@ -15,7 +15,7 @@ Mit einem iOS Gerät kann man sich z.B. eines dieser Profile installieren:
 
 DNS over TLS
 
-* [Quad9](/dns-config/dot-quad9.mobileconfig) — US — Non-Profit Organisation betreibt weltweit hunderte DNS-Server mit Fokus auf IT-Sicherheit von Unternehmen
+* [Quad9](/dns-config/dot-quad9.mobileconfig) — CH — Non-Profit Organisation betreibt weltweit hunderte DNS-Server mit Fokus auf IT-Sicherheit von Unternehmen
 * [Digitalcourage](/dns-config/dot-digitalcourage.mobileconfig) — DE — Gemeinnütziger Verein betreibt einen DNS-Server ohne Logging und ohne Zensur
 * [Freifunk FFMUC](/dns-config/dot-ffmuc.mobileconfig) — DE — Gemeinnütziger Verein betreibt in München einen DNS-Server ohne Logging und ohne Zensur
 * [Digitale Gesellschaft](/dns-config/dot-digitale-gesellschaft.mobileconfig) — CH — Gemeinnütziger Verein betreibt einen DNS-Server ohne Logging und ohne Zensur
