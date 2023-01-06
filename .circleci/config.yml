@@ -16,6 +16,9 @@ jobs:
           name: "Install Hugo"
           command: sudo dpkg -i /tmp/hugo.deb
       - run:
+          name: "Install NcFTP"
+          command: sudo apt-get install ncftp -y
+      - run:
           name: "Run Hugo"
           command: HUGO_ENV=production hugo -v -s ~/project
       - run:
