@@ -10,26 +10,26 @@ jobs:
           name: "Add Submodules"
           command: git submodule update --init --recursive
       - run:
-          name: "Download Hugo"
-          command: wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.18.1/hugo_0.18.1-64bit.deb
-      - run:
           name: "Install Hugo"
-          command: sudo dpkg -i /tmp/hugo.deb
+          command: |
+            wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.18.1/hugo_0.18.1-64bit.deb
+            sudo dpkg -i /tmp/hugo.deb
       - run:
           name: "Install NcFTP"
-          command: sudo apt update && sudo apt install ncftp -y
+          command: |
+            sudo apt update
+            sudo apt install ncftp -y
       - run:
           name: "Run Hugo"
           command: HUGO_ENV=production hugo -v -s ~/project
       - run:
           name: "Remove Google Fonts"
-          command: for i in `grep -ril googleapis .`; do sed -i 's!<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">!!g' $i; done
+          command: |
+            for i in `grep -ril googleapis .`; do sed -i 's!<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">!!g' $i; done
+            for i in `grep -ril googleapis .`; do sed -i 's!<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu%2bMono">!!g' $i; done
       - run:
           name: "Remove Highlight Pack"
           command: for i in `grep -ril gohugo .`; do sed -i 's!<script src="//gohugo.io/js/highlight.pack.js"></script>!!g' $i; done
       - add_ssh_keys
       - deploy:
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              cd public && ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASSWORD" "$FTP_SERVER" . .
-            fi
+          command: cd public && ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASSWORD" "$FTP_SERVER" . .
