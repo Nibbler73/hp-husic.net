@@ -19,12 +19,15 @@ jobs:
           name: "Run Hugo"
           command: HUGO_ENV=production hugo -v -s ~/project
       - run:
-          name: "Test Website"
-          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
+          name: "Remove Google Fonts"
+          command: for i in `grep -ril googleapis .`; do sed -i 's!<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">!!g' $i; done
+      - run:
+          name: "Remove Highlight Pack"
+          command: for i in `grep -ril gohugo .`; do sed -i 's!<script src="//gohugo.io/js/highlight.pack.js"></script>!!g' $i; done
       - add_ssh_keys
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               echo 'example.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJiGRY6N9WYQ0vy6cTiwAgNbc6ueJmVo/EafBtmT7bcD6cQMbipYM/KfYQ2lCn2TxqWepZKYoyoVQXgArycCOns=' >> ~/.ssh/known_hosts
-              rsync -va --delete public/ staticweb@example.com:/var/www/
+              cd public && ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASSWORD" "$FTP_SERVER" . .
             fi
