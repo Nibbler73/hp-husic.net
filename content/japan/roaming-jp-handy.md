@@ -30,6 +30,11 @@ Online lassen sich die SIM-Karten z.B. hier bestellen:
 * [Japan Wireless](https://www.japan-wireless.com/en/rates#sim-product-part)
 * [Prepaid LTE SIM | So-net](https://www.so-net.ne.jp/prepaid/en/)
 
+Es gibt Daten-Karten auch als eSIM:
+
+* [Airalo](https://www.airalo.com/japan-esim)
+* [Truphone](https://www.truphone.com/consumer/esim-for-smartphone/#local)
+
 Man kann auch einfach in einen [Yodobash Camera](https://www.yodobashi.com/product/100000001002998381/) store laufen und sich dort z.B. eine SIM-Karte von U-Mobile abholen.
 
 Auf diesem [wikia Blog über Japan](http://prepaid-data-sim-card.wikia.com/wiki/Japan) wird eine Liste weiterer Anbieter gepflegt.
