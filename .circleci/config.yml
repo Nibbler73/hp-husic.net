@@ -31,5 +31,5 @@ jobs:
           name: "Remove Highlight Pack"
           command: for i in `grep -ril gohugo .`; do sed -i 's!<script src="//gohugo.io/js/highlight.pack.js"></script>!!g' $i; done
       - add_ssh_keys
-      - deploy:
+      - run:
           command: cd public && ncftpput -R -v -u "$FTP_USER" -p "$FTP_PASSWORD" "$FTP_SERVER" . .
