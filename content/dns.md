@@ -44,6 +44,7 @@ Mit einer FritzBox kann man übrigens [DoT im Router aktivieren](https://www.hei
 ||149.112.112.112|2620:fe::9|||
 |[Digitalcourage](https://digitalcourage.de/support/zensurfreier-dns-server)|5.9.164.112|2a01:4f8:251:554::2||dns3.digitalcourage.de|
 |[Freifunk FFMUC](https://ffmuc.net/)|5.1.66.255|2001:678:e68:f000::|https://doh.ffmuc.net/dns-query|dot.ffmuc.net|
+||185.150.99.255|2001:678:ed0:f000::|||
 |[Digitale Gesellschaft](https://www.digitale-gesellschaft.ch/dns/)|185.95.218.42|2a05:fc84::42|https://dns.digitale-gesellschaft.ch/dns-query|dns.digitale-gesellschaft.ch|
 ||185.95.218.43|2a05:fc84::43|||
 |[DNS0](https://www.dns0.eu/)|193.110.81.0|2a0f:fc80::|https://dns0.eu/|dns0.eu|
