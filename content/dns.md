@@ -27,7 +27,7 @@ DNS over HTTPS:
 * [Quad9](/dns-config/doh-quad9.mobileconfig)
 * [Freifunk FFMUC](/dns-config/doh-ffmuc.mobileconfig)
 * [Digitale Gesellschaft](/dns-config/doh-digitale-gesellschaft.mobileconfig)
-* [DNS0](https://www.dns0.eu/de/dns0.eu.mobileconfig)
+* ~~DNS0~~ (Betrieb eingestellt)
 * [Cloudflare](/dns-config/doh-cloudflare.mobileconfig)
 
 Die Profile sind alle signiert und werden verschlüsselt übertragen.
@@ -47,8 +47,9 @@ Mit einer FritzBox kann man übrigens [DoT im Router aktivieren](https://www.hei
 ||185.150.99.255|2001:678:ed0:f000::|||
 |[Digitale Gesellschaft](https://www.digitale-gesellschaft.ch/dns/)|185.95.218.42|2a05:fc84::42|https://dns.digitale-gesellschaft.ch/dns-query|dns.digitale-gesellschaft.ch|
 ||185.95.218.43|2a05:fc84::43|||
-|[DNS0](https://www.dns0.eu/)|193.110.81.0|2a0f:fc80::|https://dns0.eu/|dns0.eu|
-||185.253.5.0|2a0f:fc81::|||
+|[~~DNS0~~](https://www.dns0.eu/) (Betrieb eingestellt)|—|—|—|—|
+|[DNS4EU](https://www.joindns4.eu/for-public)|86.54.11.1|2a13:1001::86:54:11:1|https://protective.joindns4.eu/dns-query|protective.joindns4.eu|
+||86.54.11.201|2a13:1001::86:54:11:201|||
 |[DNS.watch](https://dns.watch/)|84.200.69.80|2001:1608:10:25::1c04:b12f|||
 ||84.200.70.40|2001:1608:10:25::9249:d69b|||
 |[Cloudflare DNS](https://1.1.1.1/)|1.1.1.1|2606:4700:4700::1111|https://cloudflare-dns.com/dns-query|one.one.one.one|
